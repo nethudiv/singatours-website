@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SingaTours | Explore Singapore</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+    
+    <header class="fixed-top">
+        <!-- ================= TOP BAR ================= -->
+        <div class="top-bar">
+            <div class="container">
+                <div class="top-info">
+                    <span>
+                        <i class="fa-solid fa-phone"></i>
+                        +65 1234 5678
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-envelope"></i>
+                        info@singatours.com
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-clock"></i>
+                        24/7 Travel Support
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Singapore
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- ================= NAVBAR ================= -->    
+        <nav class="navbar navbar-expand-lg singa-navbar">
+            <div class="container">
+                <a class="navbar-brand logo" href="index.html">
+                    <i class="fa-solid fa-plane"></i> 
+                    SingaTours
+                </a>
+            
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">
+                                Home
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">
+                                About
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="destinations.html">
+                                Destinations
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="packages.html">
+                                Packages
+                            </a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="experiences.html">
+                                Experiences
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">
+                                Gallery
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">
+                                Contact
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="booking.html" class="btn btn-sm book-btn ms-4">
+                                Book Now
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <main>
+        <!-- ================= BOOKING HERO ================= -->
+        <section class="booking-hero">
+            <div class="booking-overlay">
+                <div class="container text-center">
+                    <span>
+                        Start Your Journey
+                    </span>
+
+                    <h1>
+                        Book Your Singapore Experience
+                    </h1>
+
+                    <p>
+                        Plan your dream Singapore holiday with our premium tour packages.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= BOOKING FORM ================= -->
+        <section class="booking-section">
+            <div class="container">
+                <div class="booking-wrapper">
+                    <div class="row g-5 align-items-center">
+
+                        <!-- LEFT IMAGE -->
+                        <div class="col-lg-5">
+                            <img src="images/bookingimg.jpeg" class="booking-image">
+                        </div>
+
+                        <!-- FORM -->
+                        <div class="col-lg-7">
+                            <div class="booking-form">
+                                <h2>
+                                    Reserve Your Tour
+                                </h2>
+
+                                <p>
+                                    Fill in your details and our travel expert will contact you.
+                                </p>
+                
+                                <form>
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <input type="text" placeholder="Full Name">
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <input type="email" placeholder="Email Address">
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <input type="tel" placeholder="Phone Number">
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <select>
+                                                <option>
+                                                    Select Tour Package
+                                                </option>
+
+                                                <option>
+                                                    Singapore City Explorer
+                                                </option>
+
+                                                <option>
+                                                    Luxury Singapore Escape
+                                                </option>
+
+                                                <option>
+                                                    Family Adventure Package
+                                                </option>
+                                            </select>
+                                        </div>  
+        
+                                        <div class="col-md-6">
+                                            <input type="date">
+                                        </div>
+
+                                        <div class="col-md-6">
+
+                                            <select>
+                                                <option>
+                                                    
+                                                    Number of Travelers
+                                                </option>
+
+                                                <option>
+                                                    1-2 People
+                                                </option>
+
+                                                <option>
+                                                
+                                                    3-5 People
+                                                </option>
+
+                                                <option>                                        
+                                                    6+ People
+                                                </option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-12">
+
+                                            <textarea placeholder="Special Requirements">
+                                            </textarea>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <button class="booking-submit">
+                                                Confirm Booking
+                                                <i class="fa-solid fa-paper-plane"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= BOOKING BENEFITS ================= -->
+        <section class="booking-benefits">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="benefit-card">
+                            <i class="fa-solid fa-user-tie"></i>
+
+                            <h4>
+                                Expert Guides
+                            </h4>
+
+                            <p>
+                                Professional guides for best experience.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="benefit-card">
+                            <i class="fa-solid fa-hotel"></i>
+
+                            <h4>
+                                Premium Hotels
+                            </h4>
+
+                            <p>
+                                Comfortable accommodation <br> options.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="benefit-card">
+                            <i class="fa-solid fa-headset"></i>
+
+                            <h4>
+                                24/7 Support
+                            </h4>
+
+                            <p>
+                                Always available when you <br> need us.
+                            </p>
+                        </div>        
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="benefit-card">
+                            <i class="fa-solid fa-shield"></i>
+                                <h4>
+                                    Safe Booking
+                                </h4>
+
+                                <p>
+                                    Reliable and secure travel <br> planning.
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- ================= BOOKING CTA ================= -->
+        <section class="booking-cta">
+            <div class="container text-center">
+                <h2>
+                    Ready For Your Singapore Adventure?
+                </h2>
+
+                <p>
+                    Our travel experts are waiting to create your perfect holiday.
+                </p>
+
+                <a href="contact.html" class="book-btn">
+                    Contact Us
+                </a>
+            </div>
+        </section>
+
+    </main> 
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="container"> 
+            <div class="row g-5">
+                <!-- Logo -->
+                <div class="col-lg-4">
+                    <h2 class="footer-logo">
+                        <i class="fa-solid fa-plane"></i>
+                        SingaTours
+                    </h2>
+
+                    <p>
+                        Your trusted travel partner for unforgettable Singapore
+                        experiences, luxury holidays and amazing adventures.
+                    </p>
+
+                    <div class="social-icons">
+                        <a href="#">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Links -->
+                <div class="col-lg-2">
+                    <h4>
+                        Quick Links
+                    </h4>
+
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Packages</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Gallery</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3">
+                    <h4>
+                        Popular Tours
+                    </h4>
+
+                    <ul>
+                        <li>
+                            <a href="packages/singapore-explorer.html">Singapore City Tour</a>
+                        </li>
+
+                        <li>
+                            <a href="packages/family-adventure.html">Sentosa Adventure</a>
+                        </li>
+
+                        <li>
+                            <a href="packages/luxury-singapore-escape.html">Luxury VIP Package</a>
+                        </li>
+
+                        <li>
+                            <a href="packages/family-adventure.html">Family Holiday Package</a>
+                        </li>
+
+                        <li>
+                            <a href="experiences/singapore-food-journey.html">Singapore Food Tour</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3">
+                    <h4>
+                        Contact Us
+                    </h4>
+
+                    <ul class="contact">
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Marina Bay, Singapore 018956
+                        </li>
+
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            +65 1234 5678
+                        </li>
+
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            info@singatours.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="copyright">
+                © 2026 SingaTours. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>

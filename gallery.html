@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SingaTours | Explore Singapore</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+    
+    <header class="fixed-top">
+        <!-- ================= TOP BAR ================= -->
+        <div class="top-bar">
+            <div class="container">
+                <div class="top-info">
+                    <span>
+                        <i class="fa-solid fa-phone"></i>
+                        +65 1234 5678
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-envelope"></i>
+                        info@singatours.com
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-clock"></i>
+                        24/7 Travel Support
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Singapore
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- ================= NAVBAR ================= -->    
+        <nav class="navbar navbar-expand-lg singa-navbar">
+            <div class="container">
+                <a class="navbar-brand logo" href="index.html">
+                    <i class="fa-solid fa-plane"></i> 
+                    SingaTours
+                </a>
+            
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">
+                                Home
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">
+                                About
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="destinations.html">
+                                Destinations
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="packages.html">
+                                Packages
+                            </a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="experiences.html">
+                                Experiences
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="gallery.html">
+                                Gallery
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">
+                                Contact
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="booking.html" class="btn btn-sm book-btn ms-4">
+                                Book Now
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ================= GALLERY HERO ================= -->
+        <section class="gallery-hero">
+            <div class="gallery-hero-overlay"></div>
+                <div class="container gallery-hero-content">
+                    <h1>
+                        Explore Our
+                        <br>
+                        <strong>Travel Gallery</strong>
+                    </h1>
+
+                    <p>
+                        Discover breathtaking destinations, unforgettable experiences,
+                        and beautiful memories captured across Singapore.
+                    </p>
+
+                    <div class="breadcrumb">
+                        <a href="index.html">
+                            Home
+                        </a>
+
+                        <span>
+                            /
+                        </span>
+
+                        <span>
+                            Gallery
+                        </span>
+                    </div>
+                </div>
+        </section>
+
+        <!-- ================= GALLERY FILTER ================= -->
+        <section class="gallery-filter">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <span class="section-tag">
+                        Browse Collections
+                    </span>
+
+                    <h2 class="section-title">
+                        Explore By Category
+                    </h2>
+                </div>
+
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="city">City</button>
+                    <button class="filter-btn" data-filter="nature">Nature</button>
+                    <button class="filter-btn" data-filter="luxury">Luxury</button>
+                    <button class="filter-btn" data-filter="food">Food</button>
+                    <button class="filter-btn" data-filter="night">Nightlife</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= LARGE MASONRY GALLERY ================= -->
+        <section class="gallery-page">
+            <div class="container">
+                <div class="gallery-masonry">
+
+                    <!-- CITY -->
+                    <div class="gallery-box tall city luxury">
+                        <img src="images/about.avif" alt="">
+                    </div>
+
+                    <div class="gallery-box city night">
+                        <img src="images/about1.avif" alt="">
+                    </div>
+
+                    <div class="gallery-box wide city">
+                        <img src="images/about4.avif" alt="">
+                    </div>
+
+                    <div class="gallery-box city">
+                        <img src="images/gal0.avif" alt="">
+                    </div>
+
+                    <div class="gallery-box city">
+                        <img src="images/gal3.jpeg" alt="">
+                    </div>
+
+                    <div class="gallery-box city">
+                        <img src="images/gal9.avif" alt="">
+                    </div>
+
+                    <div class="gallery-box city">
+                        <img src="images/hero.jpeg" alt="">
+                    </div>
+
+                    <div class="gallery-box city">
+                        <img src="images/city .webp" alt="">
+                    </div>
+
+
+                    <!-- NATURE -->
+                    <div class="gallery-box tall nature">
+                        <img src="images/garden.jpg" alt="">
+                    </div>
+
+                    <div class="gallery-box nature">
+                        <img src="images/collage.png" alt="">
+                    </div>
+
+                    <div class="gallery-box nature">
+                        <img src="images/collage2.webp" alt="">
+                    </div>
+
+                    <div class="gallery-box nature">
+                        <img src="images/changi5.avif" alt="">
+                    </div>
+                     <div class="gallery-box nature">
+                        <img src="images/changi2.avif" alt="">
+                    </div>
+
+                    <div class="gallery-box wide nature">
+                        <img src="images/changi4.jpeg" alt="">
+                    </div>
+
+                    <div class="gallery-box wide nature">
+                        <img src="images/gardens3.avif" alt="">
+                    </div>
+
+
+
+                    <!-- LUXURY -->
+                    <div class="gallery-box luxury">
+                        <img src="images/collage3.jpg" alt="">
+                    </div>
+
+                    <div class="gallery-box luxury">
+                        <img src="images/des.jpg" alt="">
+                    </div>
+
+                    <div class="gallery-box luxury">
+                        <img src="images/package2.jpeg" alt="">
+                    </div>
+
+                    <div class="gallery-box luxury">
+                        <img src="images/gal8.avif" alt="">
+                    </div>
+                    
+            
+
+                    <!-- FOOD -->
+                    <div class="gallery-box food">
+                        <img src="images/food.webp" alt="">
+                    </div>
+
+                    <div class="gallery-box food">
+                        <img src="images/food4.jpeg" alt="">
+                    </div>
+
+                    <div class="gallery-box wide luxury">
+                        <img src="images/merlin.jpg" alt="">
+                    </div>
+
+                    <div class="gallery-box food">
+                        <img src="images/fod3.webp" alt="">
+                    </div>
+
+                    <div class="gallery-box food">
+                        <img src="images/food5.jpg" alt="">
+                    </div>
+
+                     <div class="gallery-box food">
+                        <img src="images/food6.jpg" alt="">
+                    </div>
+
+                    <div class="gallery-box food">
+                        <img src="images/food7.jpg" alt="">
+                    </div>
+
+                    <div class="gallery-box food">
+                        <img src="images/food8.jpeg" alt="">
+                    </div>
+
+                    <div class="gallery-box food">
+                        <img src="images/food9.avif" alt="">
+                    </div>
+
+                    <div class="gallery-box food">
+                        <img src="images/food2.jpg" alt="">
+                    </div>
+
+                    <div class="gallery-box food">
+                        <img src="images/food10.jpg" alt="">
+                    </div>
+                    
+
+
+                    <!-- NIGHTLIFE -->
+                    <div class="gallery-box night">
+                        <img src="images/marina2.avif" alt="">
+                    </div>
+
+                    <div class="gallery-box wide night">
+                        <img src="images/marina3.avif" alt="">
+                    </div>
+
+                    <div class="gallery-box tall night">
+                        <img src="images/marinabay2.avif" alt="">
+                    </div>
+
+                    <div class="gallery-box tall night">
+                        <img src="images/marinabay4.avif" alt="">
+                    </div>
+
+                    <div class="gallery-box night city">
+                        <img src="images/package2.jpeg" alt="">
+                    </div>
+
+                    <div class="gallery-box wide nature">
+                        <img src="images/package4.webp" alt="">
+                    </div>
+
+                    <div class="gallery-box night">
+                        <img src="images/package3.jpeg" alt="">
+                    </div>
+
+                    <div class="gallery-box night">
+                        <img src="images/sgnight.avif" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= FEATURED DESTINATION BANNER ================= -->
+        <section class="featured-banner">
+            <div class="container">
+                <div class="banner-box">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <h2>
+                            Discover Singapore Like Never Before
+                            </h2>
+
+                            <p>
+                                Luxury attractions, world-class entertainment,
+                                and unforgettable experiences await.
+                            </p>
+
+                            <a href="packages.html" class="book-btn">
+                                View Packages
+                            </a>
+                        </div>
+
+                        <div class="col-lg-6 text-center">
+                            <img src="images/collage.png" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= TRAVEL VIDEO ================= -->        
+        <section class="video-section">
+            <div class="container">
+                <div class="video-box text-center">
+                    <i class="fa-solid fa-circle-play"></i>
+
+                    <h2>
+                        Experience Singapore In Motion
+                    </h2>
+
+                    <p>
+                        Watch our travelers explore the Lion City through unforgettable adventures.
+                    </p>
+
+                    <a href="https://youtube.com/shorts/bvsfAm57dUM?si=EHk5iaSbDX7d2_P0" target="_blank" class="video-btn">
+                        Watch Travel Video
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="container"> 
+            <div class="row g-5">
+                <!-- Logo -->
+                <div class="col-lg-4">
+                    <h2 class="footer-logo">
+                        <i class="fa-solid fa-plane"></i>
+                        SingaTours
+                    </h2>
+
+                    <p>
+                        Your trusted travel partner for unforgettable Singapore
+                        experiences, luxury holidays and amazing adventures.
+                    </p>
+
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+
+                        <a href="https://www.youtube.com/">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+
+                        <a href="https://www.tiktok.com/">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Links -->
+                <div class="col-lg-2">
+                    <h4>
+                        Quick Links
+                    </h4>
+
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+
+                        <li>
+                            <a href="packages.html">Packages</a>
+                        </li>
+
+                        <li>
+                            <a href="gallery.html">Gallery</a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3">
+                    <h4>
+                        Popular Tours
+                    </h4>
+
+                    <ul>
+                        <li>
+                            <a href="packages/singapore-explorer.html">Singapore City Tour</a>
+                        </li>
+
+                        <li>
+                            <a href="packages/family-adventure.html">Sentosa Adventure</a>
+                        </li>
+
+                        <li>
+                            <a href="packages/luxury-singapore-escape.html">Luxury VIP Package</a>
+                        </li>
+
+                        <li>
+                            <a href="packages/family-adventure.html">Family Holiday Package</a>
+                        </li>
+
+                        <li>
+                            <a href="experiences/singapore-food-journey.html">Singapore Food Tour</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3">
+                    <h4>
+                        Contact Us
+                    </h4>
+
+                    <ul class="contact">
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Marina Bay, Singapore 018956
+                        </li>
+
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            +65 1234 5678
+                        </li>
+
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            info@singatours.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="copyright">
+                © 2026 SingaTours. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

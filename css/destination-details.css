@@ -1,0 +1,620 @@
+:root{
+    --primary:#D71920;
+    --secondary:#0A2342;
+    --accent:#F8C146;
+
+    --text:#222;
+    --light:#ffffff;
+    --background:#F8F9FA;
+
+    --shadow:0 15px 35px rgba(0,0,0,.08);
+
+    --radius:22px;
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+
+body{
+overflow-x:hidden;
+}
+
+/* ===================================================
+        SINGATOURS FIXED GLASS HEADER
+=================================================== */
+
+
+/* MAIN HEADER */
+
+header.fixed-top{
+
+    width:100%;
+
+    z-index:9999;
+
+    background:
+    rgba(0,0,0,0.35);
+
+    backdrop-filter:blur(12px);
+
+    -webkit-backdrop-filter:blur(12px);
+
+    border-bottom:
+    1px solid rgba(255,255,255,0.15);
+
+}
+
+
+
+/* ===================================================
+        TOP CONTACT BAR
+=================================================== */
+
+
+.top-bar{
+
+    background:
+    rgba(3,19,46,0.55);
+
+    color:white;
+
+    padding:10px 0;
+
+    font-size:14px;
+
+
+}
+
+
+
+.top-info{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:45px;
+
+}
+
+
+
+.top-info span{
+
+    display:flex;
+
+    align-items:center;
+
+    white-space:nowrap;
+
+}
+
+
+
+.top-info i{
+
+    color:#ffd700;
+    color:#e31b23;
+
+    margin-right:8px;
+
+    font-size:14px;
+
+}
+
+
+
+/* ===================================================
+        NAVBAR
+=================================================== */
+
+
+.singa-navbar{
+
+    background:transparent!important;
+
+    padding:15px 0;
+
+}
+
+
+
+/* LOGO */
+
+
+.logo{
+
+    font-size:30px;
+
+    font-weight:800;
+
+    color:white!important;
+
+    letter-spacing:.5px;
+
+}
+
+
+
+.logo i{
+
+    color:#e31b23;
+
+    margin-right:5px;
+
+}
+
+
+
+/* NAV LINKS */
+
+
+.nav-link{
+
+    color:white!important;
+
+    margin:0 12px;
+
+    font-weight:500;
+
+    position:relative;
+
+    transition:.3s;
+
+}
+
+
+
+.nav-link::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-5px;
+
+    width:0;
+
+    height:2px;
+
+    background:#ffd700;
+
+    transition:.3s;
+
+}
+
+
+
+.nav-link:hover::after{
+
+    width:100%;
+
+}
+
+
+
+.nav-link:hover{
+
+    color:#ffd700!important;
+
+}
+
+
+
+/* ACTIVE LINK */
+
+
+.nav-link.active{
+
+    color:#ffd700!important;
+
+}
+
+
+
+
+
+/* ===================================================
+        BOOK NOW BUTTON
+=================================================== */
+
+
+.book-btn{
+
+    background:#e31b23;
+
+    color:white!important;
+
+    padding:10px 28px;
+
+    border-radius:30px;
+
+    border:2px solid #e31b23;
+
+    font-weight:600;
+
+    transition:.3s;
+
+    box-shadow:
+
+    0 8px 20px rgba(227,27,35,.35);
+
+}
+
+
+
+.book-btn:hover{
+
+
+    background:white;
+
+    color:#e31b23!important;
+
+    transform:translateY(-3px);
+
+    border-color:white;
+
+}
+
+
+
+/* ===================================================
+        MOBILE HEADER
+=================================================== */
+
+
+@media(max-width:768px){
+
+
+.top-info{
+
+    gap:15px;
+
+    flex-wrap:wrap;
+
+    font-size:12px;
+
+}
+
+
+
+.singa-navbar{
+
+    padding:12px 0;
+
+}
+
+
+
+.logo{
+
+    font-size:25px;
+
+}
+
+
+
+.nav-link{
+
+    margin:10px 0;
+
+}
+
+
+
+.book-btn{
+
+    display:inline-block;
+
+    margin-top:10px;
+
+}
+
+
+}
+
+
+
+
+
+
+/* ======= ABOUT PAGE ======= */
+
+/* ================= ABOUT HERO ================= */
+
+
+.about-hero{
+
+height:75vh;
+
+background:
+url("https://images.unsplash.com/photo-1738728045438-8f30a352158d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+
+background-size:cover;
+
+background-position:center;
+
+position:relative;
+
+display:flex;
+
+align-items:center;
+
+}
+
+
+.about-overlay{
+
+position:absolute;
+
+width:100%;
+
+height:100%;
+
+background:
+linear-gradient(
+90deg,
+rgba(0,0,0,.75),
+rgba(0,0,0,.35)
+);
+
+}
+
+
+
+.about-hero-content{
+
+position:relative;
+
+color:white;
+
+max-width:750px;
+
+}
+
+
+
+.about-hero h1{
+
+font-size:65px;
+
+font-weight:800;
+
+line-height:1.2;
+
+margin-top: 100px;
+
+}
+
+
+
+.about-hero h1 span{
+
+color:#e31b23;
+
+}
+
+
+
+.about-hero p{
+
+font-size:20px;
+
+margin-top:25px;
+
+color:#eee;
+
+}
+
+
+
+.breadcrumb{
+
+margin-top:35px;
+
+font-size:16px;
+
+}
+
+
+
+.breadcrumb a{
+
+color:#ffd700;
+
+text-decoration:none;
+
+}
+
+
+.breadcrumb span{
+
+margin:0 10px;
+
+}
+
+
+
+@media(max-width:768px){
+
+.about-hero{
+
+height:65vh;
+
+}
+
+
+.about-hero h1{
+
+font-size:40px;
+
+}
+
+
+.about-hero p{
+
+font-size:16px;
+
+}
+
+}
+
+
+
+
+
+/* ================= FOOTER ================= */
+
+
+.footer{
+
+background:#03132e;
+
+color:white;
+
+padding:80px 0 30px;
+
+}
+
+
+
+.footer-logo{
+
+font-size:35px;
+
+font-weight:800;
+
+color:white;
+
+}
+
+
+
+.footer-logo i{
+
+color:#e31b23;
+
+}
+
+
+
+.footer h4{
+
+color:#ffd700;
+
+margin-bottom:25px;
+
+}
+
+
+
+.footer ul{
+
+list-style:none;
+
+padding:0;
+
+}
+
+
+
+.footer li{
+
+margin-bottom:15px;
+
+color:#ccc;
+
+}
+
+
+
+.footer a{
+
+text-decoration:none;
+
+color:#ccc;
+
+}
+
+
+
+.footer a:hover{
+
+color:#ffd700;
+
+}
+
+
+
+.social-icons a{
+
+display:inline-flex;
+
+align-items:center;
+
+justify-content:center;
+
+width:45px;
+
+height:45px;
+
+background:white;
+
+color:#03132e;
+
+border-radius:50%;
+
+margin-right:10px;
+
+font-size:20px;
+
+}
+
+
+
+.social-icons a:hover{
+
+background:#e31b23;
+
+color:white;
+
+}
+
+
+
+.contact i{
+
+color:#ffd700;
+
+margin-right:10px;
+
+}
+
+
+
+.footer hr{
+
+margin-top:50px;
+
+border-color:#777;
+
+}
+
+
+
+.copyright{
+
+text-align:center;
+
+color:#bbb;
+
+}
